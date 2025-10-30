@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #111;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.formulario {
+  background: #fff;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+  color: #2e2b5f;
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.formulario textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+}
